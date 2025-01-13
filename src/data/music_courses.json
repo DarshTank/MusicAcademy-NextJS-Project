@@ -1,0 +1,64 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Guitar Fundamentals",
+      "slug": "guitar-fundamentals",
+      "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+      "price": 99.99,
+      "instructor": "John Doe",
+      "isFeatured": true,
+      "image": "/courses/guitar.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Piano Essentials",
+      "slug": "piano-essentials",
+      "description": "Master the foundational skills to play the piano in this beginner-friendly course.",
+      "price": 129.99,
+      "instructor": "Jane Smith",
+      "isFeatured": true,
+      "image": "/courses/piano.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Drumming Basics",
+      "slug": "drumming-basics",
+      "description": "Start your drumming journey with techniques and rhythms for beginners.",
+      "price": 89.99,
+      "instructor": "Mike Johnson",
+      "isFeatured": false,
+      "image": "/courses/drumming.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Violin for Beginners",
+      "slug": "violin-for-beginners",
+      "description": "Explore the art of violin playing with step-by-step lessons for new players.",
+      "price": 119.99,
+      "instructor": "Emily Davis",
+      "isFeatured": false,
+      "image": "/courses/violin.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Flute Fundamentals",
+      "slug": "flute-fundamentals",
+      "description": "Learn to play the flute with this detailed and engaging beginner's course.",
+      "price": 79.99,
+      "instructor": "Chris Taylor",
+      "isFeatured": true,
+      "image": "/courses/flute.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Bass Guitar Essentials",
+      "slug": "bass-guitar-essentials",
+      "description": "Pick up the bass guitar and master essential techniques to start playing.",
+      "price": 109.99,
+      "instructor": "Sarah Wilson",
+      "isFeatured": false,
+      "image": "/courses/bass-guitar.jpg"
+    }
+  ]
+}
