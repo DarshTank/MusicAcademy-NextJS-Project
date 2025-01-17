@@ -32,6 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <title>Music Academy</title>
       <body className={inter.className}>
         <div className="relative w-full flex items-center justify-center">
           <Navbar />
