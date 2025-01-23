@@ -18,7 +18,7 @@
       "price": 129.99,
       "instructor": "Jane Smith",
       "isFeatured": true,
-      "image": "/courses/piano.jpg"
+      "image": "/courses/piano.avif"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "price": 89.99,
       "instructor": "Mike Johnson",
       "isFeatured": false,
-      "image": "/courses/drumming.jpg"
+      "image": "/courses/drumming.avif"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "price": 119.99,
       "instructor": "Emily Davis",
       "isFeatured": false,
-      "image": "/courses/violin.jpg"
+      "image": "/courses/violin.avif"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "price": 79.99,
       "instructor": "Chris Taylor",
       "isFeatured": true,
-      "image": "/courses/flute.jpg"
+      "image": "/courses/flute.avif"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "price": 109.99,
       "instructor": "Sarah Wilson",
       "isFeatured": false,
-      "image": "/courses/bass-guitar.jpg"
+      "image": "/courses/bass-guitar.avif"
     }
   ]
 }

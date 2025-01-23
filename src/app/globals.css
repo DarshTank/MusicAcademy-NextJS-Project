@@ -2,18 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Add your custom styles here */
-:root {
-  --background: #ffffff; /* Default light mode */
-  --foreground: #000000;
-}
-
-[data-theme="dark"] {
-  --background: #000000; /* Dark mode */
-  --foreground: #ffffff;
-}
-
 body {
-  background-color: var(--background);
-  color: var(--foreground);
+ background-color: #000000;
+ color: #ffffff;
+}
+
+:root {
+ --background: #000000;
+ --foreground: #ffffff;
+ --radius: 0.5rem;
+}
+
+* {
+ box-sizing: border-box;
 }
