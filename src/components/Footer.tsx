@@ -16,22 +16,22 @@ export default function Footer() {
           <h2 className="text-white font-bold text-lg mb-4">Quick Links</h2>
           <ul className="space-y-2">
             <li>
-              <a href="/" className="hover:text-white">
+              <a href="/" aria-label="Home" className="hover:text-white transition duration-300">
                 Home
               </a>
             </li>
             <li>
-              <a href="/about" className="hover:text-white">
+              <a href="/about" aria-label="About" className="hover:text-white transition duration-300">
                 About
               </a>
             </li>
             <li>
-              <a href="/courses" className="hover:text-white">
+              <a href="/courses" aria-label="Courses" className="hover:text-white transition duration-300">
                 Courses
               </a>
             </li>
             <li>
-              <a href="/contact" className="hover:text-white">
+              <a href="/contact" aria-label="Contact" className="hover:text-white transition duration-300">
                 Contact
               </a>
             </li>
@@ -40,16 +40,25 @@ export default function Footer() {
         <div>
           <h2 className="text-white font-bold text-lg mb-4">Follow Us</h2>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white">
-              {/* <FaFacebookF size={20} /> */}
+            <a
+              href="#"
+              aria-label="Facebook"
+              className="text-gray-400 hover:text-white transition duration-300"
+            >
               Facebook
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              {/* <FaTwitter size={20} /> */}
+            <a
+              href="#"
+              aria-label="Twitter"
+              className="text-gray-400 hover:text-white transition duration-300"
+            >
               Twitter
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              {/* <FaInstagram size={20} /> */}
+            <a
+              href="#"
+              aria-label="Instagram"
+              className="text-gray-400 hover:text-white transition duration-300"
+            >
               Instagram
             </a>
           </div>
@@ -65,7 +74,9 @@ export default function Footer() {
           <p>Phone: (123) 456-7890</p>
         </div>
       </div>
-      <p className="text-center text-xs pt-12">2025 Music Academy. All Rights Recived. Developed By Puzzels.co</p>
+      <p className="text-center text-xs pt-12">
+        2025 Music Academy. All Rights Reserved. Developed By Puzzels.co
+      </p>
     </footer>
   );
 }
